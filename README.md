@@ -1,319 +1,422 @@
-# Python Quest 🐍
+<div align="center">
 
-> **Learn Python through gamified challenges in your terminal.**  
-> Earn XP • Level Up • Unlock Badges • Build Streaks  
-> *Duolingo for Python — zero setup, pure terminal.*
+# ⚡ PYTHON QUEST
+
+### Level Up Your Python Skills. One Challenge at a Time.
+
+**Python Quest** is a gamified Python learning platform that transforms the traditional process of learning programming into an interactive adventure. Inspired by Duolingo, it combines bite-sized coding challenges with XP rewards, levels, achievement badges, and daily streaks to make learning Python more engaging and rewarding. Starting as a terminal-based game, the project is designed to evolve into a full-stack web application with interactive coding challenges and leaderboards.
+
+<br/>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Rich](https://img.shields.io/badge/Rich-FF5DA2?style=for-the-badge&logo=terminal&logoColor=white)
+![Typer](https://img.shields.io/badge/Typer-00BFA6?style=for-the-badge&logo=python&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
+
+**Planned Tech Stack**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+<br/>
+
+![Challenges](https://img.shields.io/badge/Challenges-27-FF5DA2?style=flat-square)
+![Topics](https://img.shields.io/badge/Topics-7-8A2BE2?style=flat-square)
+![Badges](https://img.shields.io/badge/Badges-9-FFD700?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-7CFF6B?style=flat-square)
+
+</div>
 
 ---
 
-## ✨ Features
+## ✨ What is Python Quest?
+
+Learning Python doesn't have to feel like reading endless documentation or solving random exercises.
+
+**Python Quest turns learning into a game.**
+
+Start your journey as a beginner, complete programming challenges, earn experience points, unlock achievements, and build daily learning streaks.
+
+Every challenge brings you closer to mastering Python.
+
+Whether you're learning variables for the first time or exploring functions and data structures, Python Quest makes every small improvement count.
+
+**Your mission:** Learn. Code. Earn XP. Level Up.
+
+---
+
+## 🎮 Features
 
 | Feature | Description |
-|---------|-------------|
-| 🎯 **27 Challenges** | Across 7 Python topics, 3 challenge types |
-| ⚡ **XP & Levels** | Mathematical progression curve (Lv 1→10) |
-| 🏆 **9 Badges** | Unique unlocks: First Blood, Loop Master, Perfectionist... |
-| 🔥 **Daily Streaks** | Persistent streak tracking across sessions |
-| 🎨 **Synthwave UI** | Rich-powered gradients, panels, tables in terminal |
-| 💾 **Zero Setup** | Single JSON save file — no database needed |
-| 🏗️ **Extensible** | Clean architecture ready for FastAPI + Web |
+|:---|:---|
+| 🎯 **27 Interactive Challenges** | Learn through 7 core Python topics and 3 challenge types. |
+| ⚡ **XP & Level System** | Earn experience points and progress through 10 levels. |
+| 🏆 **9 Achievement Badges** | Unlock achievements by completing milestones. |
+| 🔥 **Daily Streaks** | Maintain your learning consistency with persistent streak tracking. |
+| 🎨 **Synthwave Terminal UI** | Beautiful terminal interface powered by Rich. |
+| 💾 **Persistent Progress** | Automatically save your progress using JSON. |
+| 🧩 **Multiple Challenge Types** | MCQs, output prediction, and fill-in-the-blank exercises. |
+| 🚀 **Expandable Architecture** | Designed for future FastAPI and web integration. |
 
 ---
 
-## 🎮 Quick Start
+## 🚀 Getting Started
+
+Get your quest running in just a few steps.
+
+### 1. Clone the Repository
 
 ```bash
-# 1. Clone & enter
 git clone https://github.com/20vaidehiv-lgtm/Python-Quest.git
+```
+
+### 2. Navigate to the Project
+
+```bash
 cd Python-Quest
+```
 
-# 2. Install deps (Rich + Typer only — no Rust, no build)
+### 3. Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-# 3. Start your quest!
+### 4. Start Your Quest!
+
+```bash
 python main.py start --new
 ```
 
-> **Windows?** Works out of the box — ASCII-safe rendering, no emoji encoding issues.
+Enter your username and begin your Python journey!
+
+**Requirements:**
+- Python 3.10+
+- Rich
+- Typer
+
+No database configuration or complicated setup required.
 
 ---
 
-## 📸 Demo
-
-```
-+==================================================+
-|                                                  |
-|  PYTHON QUEST                                    |
-|  Learn Python through interactive challenges     |
-|  Earn XP + Level Up + Unlock Badges + Build Streaks|
-|                                                  |
-+==================================================+
-
-Enter your username (Player): Vaidehi
-
-+==================================================+
-| ◆ PLAYER STATS ◆                                 |
-| ✨ Level 1                    🔥 Streak: 1 days |
-| XP: 0/100 (0%) ██████████████████████████████░░ |
-+==================================================+
-
-+==================================================+
-| #01 ◉ Hello, Variables!     EASY  15 XP        |
-| Learn how to store and use data in variables.   |
-|                                                 |
-| What will be the value of `x` after this runs?  |
-|                                                 |
-|   x = 10                                        |
-|   x = x + 5                                     |
-|   x = x * 2                                     |
-|                                                 |
-|   A) 15                                         |
-|   B) 20                                         |
-| ▸ C) 30                                         |
-|   D) 25                                         |
-+==================================================+
-
-Your answer [A/B/C/D]: C
-
-🎉 Correct!
-+15 XP
-🏆 Badge Unlocked: [*] First Blood - Complete your first challenge
-```
-
----
-
-## 🎯 Commands
+## 🕹️ Available Commands
 
 | Command | Description |
-|---------|-------------|
-| `python main.py start [--user NAME] [--new]` | Launch interactive game |
-| `python main.py play [ID] [--user NAME]` | Play specific challenge |
-| `python main.py stats [--user NAME]` | View profile, badges, progress |
-| `python main.py challenges [--topic NAME] [--user NAME]` | Browse challenges |
-| `python main.py leaderboard [--user NAME]` | View mock leaderboard |
+|:---|:---|
+| `python main.py start --new` | Start a fresh quest. |
+| `python main.py start` | Resume your existing quest. |
+| `python main.py play 1` | Play a specific challenge. |
+| `python main.py stats` | View your player statistics. |
+| `python main.py challenges` | Browse all available challenges. |
+| `python main.py challenges --topic loops` | Filter challenges by topic. |
+| `python main.py leaderboard` | View the leaderboard. |
 
 ---
 
-## 🧩 Challenge Types
+## 🧠 Challenge System
 
-| Type | Icon | Description | Example |
-|------|------|-------------|---------|
-| **Multiple Choice** | `◉` | Pick the correct answer (A/B/C/D) | "What does `5 != 5` evaluate to?" |
-| **Predict Output** | `▶` | Read code, predict exact output | `for i in range(3): print(i)` → `0\n1\n2` |
-| **Fill in the Blank** | `␣` | Complete the code snippet | `age_next_year = ______ + 1` → `int(age)` |
+Python Quest currently supports three different challenge formats.
 
-> **No code execution needed** — all validation is string-based, safe & instant.
+| Type | Description | Example |
+|:---|:---|:---|
+| ◉ Multiple Choice | Choose the correct answer. | What does `5 != 5` return? |
+| ▶ Predict Output | Predict the output of a Python program. | `for i in range(3): print(i)` |
+| ␣ Fill in the Blank | Complete missing parts of code. | `age_next_year = ______ + 1` |
 
----
+**Current learning topics:**
 
-## 📚 Topics & Progress
-
-| Topic | Challenges | XP Range | Status |
-|-------|------------|----------|--------|
-| **Variables** | 4 | 10–15 | ████░░░░░░ |
-| **Conditionals** | 4 | 10–20 | ░░░░░░░░░░ |
-| **Loops** | 5 | 15–25 | ░░░░░░░░░░ |
-| **Functions** | 4 | 15–35 | ░░░░░░░░░░ |
-| **Lists** | 4 | 15–25 | ░░░░░░░░░░ |
-| **Dicts** | 3 | 15–25 | ░░░░░░░░░░ |
-| **Strings** | 3 | 15–15 | ░░░░░░░░░░ |
-
-**Total**: 27 challenges • ~400 XP to Level 3
+| Topic | Challenges | Concepts Covered |
+|:---|:---:|:---|
+| Variables | 4 | Variables, data types, assignments |
+| Conditionals | 4 | If, elif, else, comparisons |
+| Loops | 5 | For loops, while loops, range |
+| Functions | 4 | Parameters, return values, functions |
+| Lists | 4 | Indexing, modification, list operations |
+| Dictionaries | 3 | Keys, values, dictionary operations |
+| Strings | 3 | String operations and manipulation |
+| **Total** | **27** | **7 Core Topics** |
 
 ---
 
-## 🏅 Gamification
+## 🏆 Gamification System
 
-### XP Curve
+### ⚡ XP & Level Progression
+
+Every completed challenge rewards XP depending on its difficulty.
+
+| Difficulty | XP Reward |
+|:---|:---:|
+| 🟢 Easy | 10–20 XP |
+| 🟠 Medium | 20–25 XP |
+| 🔴 Hard | 35 XP |
+
+Your total XP determines your level.
+
+```text
+LEVEL PROGRESSION
+
+Level 1       0 XP
+Level 2       100 XP
+Level 3       300 XP
+Level 4       650 XP
+Level 5       1200 XP
+...
+Level 10      9200 XP
 ```
-Level 1:   0 XP     (Start)
-Level 2: 100 XP     ████
-Level 3: 300 XP     ████████████
-Level 4: 650 XP     ████████████████████
-Level 5: 1200 XP    ████████████████████████████
-... up to Level 10 (9200 XP)
-```
-*Formula: `100 × (n-1) × 1.2^(n-2)`*
 
-### Challenge Rewards
-- **Easy** 🟢 10–20 XP
-- **Medium** 🟠 20–25 XP  
-- **Hard** 🔴 35 XP
+The progression system uses a mathematical XP curve to make higher levels progressively more challenging.
 
-### Badges (9 Total)
+### 🥇 Achievement Badges
 
-| Badge | Trigger | Icon |
-|-------|---------|------|
-| **First Blood** | Complete 1 challenge | `[*]` |
-| **Getting Started** | Complete 5 challenges | `[+]` |
-| **Week Warrior** | 7-day streak | `[7]` |
-| **Month Master** | 30-day streak | `[30]` |
-| **Loop Master** | All loop challenges | `[@]` |
-| **Function Fanatic** | All function challenges | `[!]` |
-| **Data Dabbler** | All list + dict challenges | `[#]` |
-| **Speed Runner** | 10 challenges in 1 hour | `[>]` |
-| **Perfectionist** | 20+ challenges, 100% pass | `[100]` |
+There are currently 9 unique achievements to unlock.
 
-### Streaks
-- Login/play daily → streak increments
-- Miss a day → resets to 1
-- Persisted in `quest_data.json`
+| Badge | Requirement |
+|:---|:---|
+| 🩸 First Blood | Complete your first challenge. |
+| ➕ Getting Started | Complete 5 challenges. |
+| 🔥 Week Warrior | Maintain a 7-day streak. |
+| 📅 Month Master | Maintain a 30-day streak. |
+| 🔁 Loop Master | Complete all loop challenges. |
+| ⚙️ Function Fanatic | Complete all function challenges. |
+| 📚 Data Dabbler | Complete all list and dictionary challenges. |
+| ⚡ Speed Runner | Complete 10 challenges within an hour. |
+| 💯 Perfectionist | Complete 20+ challenges with a 100% pass rate. |
+
+### 🔥 Daily Streaks
+
+Consistency matters!
+
+- Play daily to maintain your streak.
+- Miss a day and your streak resets.
+- Your streak is automatically saved.
+- Progress persists even after closing the application.
 
 ---
 
-## 🛠 Tech Stack
+## 🖥️ Demo
 
-### Phase 1 (Current — Terminal)
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
-![Rich](https://img.shields.io/badge/UI-Rich-FF5DA2?logo=terminal&logoColor=white)
-![Typer](https://img.shields.io/badge/CLI-Typer-00E5FF?logo=command-line&logoColor=white)
-![JSON](https://img.shields.io/badge/Storage-JSON-7CFF6B?logo=json&logoColor=black)
+Here's what your terminal adventure looks like:
 
-### Phase 2+ (Planned — Web)
-![FastAPI](https://img.shields.io/badge/API-FastAPI-009688?logo=fastapi&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/ORM-SQLAlchemy-D71F00?logo=sqlalchemy&logoColor=white)
-![SQLite](https://img.shields.io/badge/DB-SQLite-003B57?logo=sqlite&logoColor=white)
-![Tailwind](https://img.shields.io/badge/CSS-Tailwind-00E5FF?logo=tailwindcss&logoColor=white)
-![Piston](https://img.shields.io/badge/Execution-Piston-FF5DA2?logo=code&logoColor=white)
+```text
++==================================================+
+|                                                  |
+|   PYTHON QUEST                                   |
+|   Learn Python. Earn XP. Level Up.               |
+|                                                  |
+|   ✨ LEVEL 1                 🔥 STREAK: 1 DAY    |
+|   XP: 0 / 100                                  |
+|                                                  |
++==================================================+
+
+  CHALLENGE #01
+
+  ◉ HELLO, VARIABLES!
+
+  Difficulty: EASY
+  Reward: +15 XP
+
+  What will be the value of x after this runs?
+
+      x = 10
+      x = x + 5
+      x = x * 2
+
+      A) 15
+      B) 20
+      C) 30
+      D) 25
+
+  Your answer [A/B/C/D]: C
+
+  🎉 CORRECT!
+
+  +15 XP
+  🏆 BADGE UNLOCKED: FIRST BLOOD
+
++==================================================+
+|             QUEST PROGRESS UPDATED              |
++==================================================+
+```
 
 ---
 
-## 🏗 Architecture
+## 🏗️ Project Architecture
 
-```
-python-quest/
-├── main.py                    # Entry point
-├── requirements.txt           # Dependencies
-├── PRD.md                     # Product Requirements
-├── PROJECT_TECH_STACK.md      # Full tech reference
-├── quest_data.json            # Auto-created save file
+The project follows a modular architecture with a clear separation of responsibilities.
+
+```text
+Python-Quest/
+│
+├── main.py
+├── requirements.txt
+├── PRD.md
+├── PROJECT_TECH_STACK.md
+├── quest_data.json
+│
 └── python_quest/
-    ├── __init__.py            # Version
-    ├── models.py              # User, Challenge, GameState (dataclasses)
-    ├── challenges.py          # 27 Challenge definitions
-    ├── engine.py              # QuestEngine: logic, XP, badges, streak
-    ├── ui.py                  # Rich components: panels, tables, styling
-    └── cli.py                 # Typer commands: start, play, stats...
+    │
+    ├── __init__.py
+    ├── models.py
+    ├── challenges.py
+    ├── engine.py
+    ├── ui.py
+    └── cli.py
 ```
 
-### Separation of Concerns
-| Layer | Responsibility |
-|-------|----------------|
-| **Models** | Pure data structures, serialization |
-| **Engine** | Game logic: answer checking, XP, badges, streak |
-| **UI** | Rich rendering: panels, tables, gradients, prompts |
-| **CLI** | Command routing, user interaction flow |
+### Architecture Overview
+
+| Module | Responsibility |
+|:---|:---|
+| `main.py` | Application entry point. |
+| `models.py` | Data structures using Python dataclasses. |
+| `challenges.py` | Contains all 27 challenge definitions. |
+| `engine.py` | Handles XP, levels, badges, streaks and answer validation. |
+| `ui.py` | Terminal interface using Rich. |
+| `cli.py` | Command-line interface using Typer. |
+| `quest_data.json` | Stores player progress and game data. |
+
+### Design Principles
+
+- **Modularity:** Each module has a specific responsibility.
+- **Maintainability:** Easy to update and extend individual components.
+- **Persistence:** Player progress is saved between sessions.
+- **Scalability:** Architecture designed to support future backend integration.
 
 ---
 
-## 🗺 Roadmap
+## 🛠️ Tech Stack
 
-### Phase 1: Terminal MVP ✅
-- [x] Rich + Typer CLI
-- [x] 27 challenges, 3 types, 7 topics
-- [x] XP, levels, badges, streaks
-- [x] JSON persistence
-- [x] Synthwave theme
+### Phase 1 — Terminal Application (Implemented)
 
-### Phase 2: Backend API
-- [ ] FastAPI + SQLAlchemy + Alembic
-- [ ] JWT auth (register/login/me)
-- [ ] Challenge/Submission/Leaderboard endpoints
-- [ ] Auto `/docs` (Swagger UI)
+| Technology | Purpose |
+|:---|:---|
+| Python | Core programming language and game logic. |
+| Rich | Terminal styling, panels, tables and progress bars. |
+| Typer | Command-line interface and command routing. |
+| JSON | Local player data and progress storage. |
 
-### Phase 3: Web Frontend
-- [ ] HTML + Tailwind CDN + Vanilla JS
-- [ ] Dashboard, Challenge pages, Leaderboard
-- [ ] `fetch()` API integration
-- [ ] Responsive, accessible
+### Phase 2+ — Full-Stack Web Application (Planned)
 
-### Phase 4: Gamification Polish
-- [ ] XP/Level animations
-- [ ] Streak calendar heatmap
-- [ ] Challenge recommendations
-- [ ] Weekly leaderboard reset
+| Technology | Purpose |
+|:---|:---|
+| FastAPI | Backend REST API. |
+| SQLAlchemy | Database ORM. |
+| SQLite | Database storage. |
+| Alembic | Database migrations. |
+| HTML5 | Frontend structure. |
+| Tailwind CSS | Responsive UI styling. |
+| JavaScript | Frontend interactions and API integration. |
+| Piston / Judge0 | Code execution and validation. |
+| CodeMirror / Monaco | Interactive code editor. |
 
-### Phase 5: Code Challenges
-- [ ] Piston/Judge0 API integration
-- [ ] CodeMirror/Monaco editor
-- [ ] Sandbox security review
-- [ ] Test case validation
+---
 
-### Phase 6: Social & Auth
-- [ ] GitHub OAuth
-- [ ] Profile pages
-- [ ] Friend challenges
+## 🗺️ Development Roadmap
 
-### Phase 7: Deploy & Polish
-- [ ] Docker + GitHub Actions CI
-- [ ] Railway/Render/Fly.io deploy
-- [ ] README screenshots + Demo GIF
-- [ ] Portfolio writeup
+Python Quest is being developed in multiple phases.
+
+- [x] **Phase 1 — Terminal MVP**
+  - Rich-powered terminal interface.
+  - 27 challenges across 7 topics.
+  - XP, levels, badges and streaks.
+  - JSON-based persistence.
+  - Typer CLI commands.
+
+- [ ] **Phase 2 — Backend Development**
+  - FastAPI integration.
+  - SQLAlchemy and SQLite.
+  - User authentication.
+  - Challenge and submission APIs.
+  - Swagger documentation.
+
+- [ ] **Phase 3 — Web Frontend**
+  - HTML + Tailwind CSS.
+  - Interactive dashboard.
+  - Challenge interface.
+  - Leaderboard.
+  - JavaScript API integration.
+
+- [ ] **Phase 4 — Gamification Improvements**
+  - XP and level-up animations.
+  - Streak calendar.
+  - Challenge recommendations.
+  - Weekly leaderboards.
+
+- [ ] **Phase 5 — Interactive Coding Challenges**
+  - Piston / Judge0 integration.
+  - CodeMirror / Monaco editor.
+  - Test case validation.
+  - Secure code execution.
+
+- [ ] **Phase 6 — Social Features**
+  - GitHub OAuth.
+  - Public player profiles.
+  - Friend challenges.
+
+- [ ] **Phase 7 — Deployment**
+  - Docker integration.
+  - GitHub Actions CI/CD.
+  - Cloud deployment.
+  - Screenshots and demo GIF.
 
 ---
 
 ## 🤝 Contributing
 
-### Add a Challenge
-1. Open `python_quest/challenges.py`
-2. Add a new `Challenge` dataclass to `CHALLENGES` list
-3. Increment `order_index` sequentially
-4. Run `python main.py challenges` to verify
+Want to add a new challenge?
 
-### Challenge Template
-```python
-Challenge(
-    id=28,  # Next available ID
-    title="Your Title",
-    description="What this teaches",
-    difficulty=Difficulty.EASY,  # EASY | MEDIUM | HARD
-    type=ChallengeType.MCQ,      # MCQ | PREDICT_OUTPUT | FILL_BLANK
-    topic="variables",           # variables | conditionals | loops | functions | lists | dicts | strings
-    xp_reward=15,
-    order_index=28,
-    # Type-specific fields:
-    question="Your question?",
-    options=["A) Opt1", "B) Opt2", "C) Opt3", "D) Opt4"],
-    correct_answer="C",
-    # OR for predict:
-    code_snippet="print(2+2)",
-    expected_output="4",
-    # OR for fill blank:
-    blank_code="x = ______",
-    blank_answer="5",
-)
-```
+1. Open `python_quest/challenges.py`.
+2. Add a new `Challenge` object to the `CHALLENGES` list.
+3. Assign the next available ID and order index.
+4. Run the application and verify your challenge.
 
-### Report Issues
-- Bug? → Open issue with steps to reproduce
-- Feature? → Open issue with use case
-- Typo in challenge? → PR welcome!
+Contributions, suggestions and bug reports are welcome!
 
 ---
 
-## 📄 License
+## 🎯 Project Vision
 
-MIT License — feel free to use, modify, distribute.
+Python Quest started as a terminal-based Python learning game, but the long-term goal is much bigger.
+
+The vision is to build a complete interactive learning platform where beginners can:
+
+- Learn programming through structured challenges.
+- Practice writing and understanding code.
+- Track their learning progress.
+- Compete with friends through leaderboards.
+- Build consistent coding habits.
+- Gradually move from beginner exercises to real coding problems.
+
+**From a simple terminal game to a complete coding-learning platform.**
 
 ---
 
-## 💼 Portfolio Talking Points
+## 👩‍💻 Developer
 
-> **Built a complete gamified learning system** from scratch in Python:
-> - **Custom synthwave terminal UI** using Rich (gradients, panels, tables, progress bars)
-> - **Mathematical XP/leveling curve** with 10 levels, balanced challenge rewards
-> - **9 unique badges** with varied unlock conditions (count, streak, topic mastery)
-> - **27 educational challenges** across 7 core Python topics, 3 validation types
-> - **Clean architecture**: models → engine → UI → CLI separation, fully type-hinted
-> - **Phase 2 ready**: models map 1:1 to SQLAlchemy, FastAPI endpoints designed in PRD
-> - **Cross-platform**: solved Windows encoding issues, ASCII-safe rendering
+<div align="center">
+
+### Vaidehi Vaidya
+
+Computer Science & Engineering Student
+
+Building projects, exploring new technologies, and learning by creating.
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/20vaidehiv-lgtm)
+
+</div>
 
 ---
 
 <div align="center">
 
-**Made with 💜 and synthwave vibes**
+### 💜 Made with Python, curiosity & a little synthwave magic.
 
-[![GitHub](https://img.shields.io/badge/GitHub-20vaidehiv--lgtm/Python--Quest-181717?logo=github)](https://github.com/20vaidehiv-lgtm/Python-Quest)
+**LEARN • PLAY • LEVEL UP**
+
+⭐ If you like this project, consider giving it a star!
 
 </div>
