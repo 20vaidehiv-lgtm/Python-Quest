@@ -395,16 +395,6 @@ The vision is to build a complete interactive learning platform where beginners 
 
 ---
 
-## 👩‍💻 Developer
-
-<div align="center">
-
-### Vaidehi Vaidya
-
-Computer Science & Engineering Student
-
-Building projects, exploring new technologies, and learning by creating.
-
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/20vaidehiv-lgtm)
 
 </div>
