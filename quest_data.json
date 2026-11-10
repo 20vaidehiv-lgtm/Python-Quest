@@ -1,0 +1,16 @@
+{
+  "user": {
+    "username": "TestPlayer",
+    "xp": 70,
+    "level": 1,
+    "streak": 1,
+    "completed_challenges": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "last_active": "2026-11-10"
+  }
+}
