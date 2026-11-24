@@ -407,6 +407,4 @@ The vision is to build a complete interactive learning platform where beginners 
 
 **LEARN • PLAY • LEVEL UP**
 
-⭐ If you like this project, consider giving it a star!
-
 </div>
