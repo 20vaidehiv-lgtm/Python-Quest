@@ -361,8 +361,6 @@ Python Quest is being developed in multiple phases.
   - Docker integration.
   - GitHub Actions CI/CD.
   - Cloud deployment.
-  - Screenshots and demo GIF.
-
 ---
 
 ## 🤝 Contributing
